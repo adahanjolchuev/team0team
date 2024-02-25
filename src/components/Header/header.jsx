@@ -24,7 +24,22 @@ export default function Header() {
           <Typography variant="h5" component="div" sx={{ flexGrow: 4 }}>
             News
           </Typography>
+          <input
+            style={{
+              padding: "10px",
+            }}
+            type="text"
+            placeholder="search..."
+          />
           <Button color="inherit">Login</Button>
+          <Typography variant="h6">
+            <h3>adahan</h3>
+            <p>elmir</p>
+
+            {/* <p style={{
+                width:'90px'
+            }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In laboriosam mollitia saepe iure deleniti voluptates earum molestiae distinctio reprehenderit tempora architecto quam, illum aut doloremque tempore ipsam assumenda, exercitationem deserunt tenetur maxime culpa sequi non? Ipsam nesciunt mollitia autem impedit.</p> */}
+          </Typography>
         </Toolbar>
       </AppBar>
     </Box>
